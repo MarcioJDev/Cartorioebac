@@ -99,6 +99,7 @@ int consulta() {
     
     if (file == NULL) {
         printf("Não foi possível abrir o arquivo, não localizado!\n");
+        system("pause");
         return 1;
     }
     
@@ -193,5 +194,4 @@ int main() {
     
     return 0;
 }
-
 
